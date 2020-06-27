@@ -16,7 +16,7 @@
                     {{@site.title}}
                 {{/if}}
             </a>
-            <div class="inner">
+            <div>
                 {{> "site-nav"}}
             </div>
         </header>
@@ -25,7 +25,7 @@
         {{#post}}
 
         {{! Everything below outputs content of the the post which has been published }}
-        <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{#if tags}}on {{tags separator=" | "}}{{/if}}</span>
+        <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time><span class="reading-time">{{reading_time}}</span>{{#if tags}}on {{tags separator=" | "}}{{/if}}</span>
 
         <h1 class="post-title">{{{title}}}</h1>
 
@@ -34,10 +34,9 @@
         </section>
 
         <footer class="post-footer">
-
             {{#if primary_author}}
                 <section class="author">
-                    <h4>{{primary_author.name}}</h4>
+                    Written by {{primary_author.name}} while probably drinking.
                     <p>{{primary_author.bio}}</p>
                 </section>
             {{/if}}

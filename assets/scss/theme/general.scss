@@ -21,13 +21,15 @@ body {
   font-family: "Source Sans Pro", monospace;
   font-size: 2rem;
   line-height: 1.6em;
-  color: $text;
+  // color: $text;
+  color: #f5f5f5;
   background: $background;
 }
 
 ::selection {
   color: $selection-text-and-header-background;
-  background: $selection-background-and-link-hover;
+  // background: $selection-background-and-link-hover;
+  background: #FFEB3B;
   text-shadow: none;
 }
 

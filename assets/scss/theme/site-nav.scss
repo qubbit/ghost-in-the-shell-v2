@@ -1,14 +1,15 @@
 .site-nav {
-    ul {
-        padding: 0;
-        
-        li {
-            display: inline-block;
-            list-style: none;
-        }
+  ul {
+    padding: 0;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin-left: 36px;
     }
-    
-    .post-header & {
-        text-align:  center;
-    }
+  }
+
+  .post-header & {
+    text-align: right;
+  }
 }
