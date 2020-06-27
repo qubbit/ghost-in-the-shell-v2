@@ -39,9 +39,6 @@
             -o-transition: background .3s linear;
             transition: background .3s linear;
         }
-        &:hover:before {
-            background: rgba(204,31,39, 0.5);
-        }
         img {
             display: block;
             max-height: 100px;
