@@ -7,6 +7,10 @@
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
     },
+"browserslist": [
+    "last 2 version",
+    "> 2%"
+  ],
     "license": "MIT",
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg",
@@ -41,7 +45,7 @@
     "contributors": "https://github.com/mityalebedev/The-Shell/graphs/contributors",
     "devDependencies": {
         "browser-sync": "^2.26.3",
-        "gulp": "^4.0.0",
+        "gulp": "^4.0.2",
         "gulp-autoprefixer": "^6.0.0",
         "gulp-sass": "^4.0.2",
         "gulp-sourcemaps": "^2.6.4",
